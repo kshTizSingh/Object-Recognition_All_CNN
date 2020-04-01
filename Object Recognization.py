@@ -22,8 +22,6 @@ from PIL import Image
 #plt.show()
 
 # data preprocessing
-seed = 6
-np.random.seed(seed) 
 
 X_train = X_train.astype('float32')
 X_test = X_test.astype('float32')
